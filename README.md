@@ -18,3 +18,7 @@
 * Start Application
 	Without shell ```mix run```
 	With shell ```iex -S mix```
+
+* Application Environment
+	add in config.exs ```config :elixir_tutorial, test: :value_test```
+	fetch using ```Application.fetch_env(:elixir_tutorial, :test)```
