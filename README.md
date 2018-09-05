@@ -14,3 +14,7 @@
 
 * To learn more about dependencies, run the following command:
 ```mix help deps```
+
+* Start Application
+	Without shell ```mix run```
+	With shell ```iex -S mix```
