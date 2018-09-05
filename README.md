@@ -22,3 +22,8 @@
 * Application Environment
 	add in config.exs ```config :elixir_tutorial, test: :value_test```
 	fetch using ```Application.fetch_env(:elixir_tutorial, :test)```
+
+* Example: Creating a Web-Based CalcServer
+	Start server ```iex -S mix```
+	Request using curl ```curl http://localhost:8088/result```
+		```curl http://localhost:8088/add?number=1 -X POST```
